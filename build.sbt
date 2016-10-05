@@ -1,10 +1,10 @@
 
 name := "Scala Shapefile Parser"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.11.8"
 
 libraryDependencies += "com.vividsolutions" % "jts" % "1.13"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.0.M5b" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 
 resolvers += "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
